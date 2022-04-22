@@ -1,2 +1,2 @@
-# WIP Web KKUINSGD (Frontend Only)
+# WIP Web KKUINSGD
 Kerja Praktek Kelompok Keahlian
