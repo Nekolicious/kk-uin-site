@@ -1,2 +1,2 @@
-# kk-uin-site (Frontend)
+# WIP Web KKUINSGD (Frontend Only)
 Kerja Praktek Kelompok Keahlian
