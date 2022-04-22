@@ -1,2 +1,2 @@
-# kk-uin-site
+# kk-uin-site (Frontend)
 Kerja Praktek Kelompok Keahlian
