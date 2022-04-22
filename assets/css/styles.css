@@ -1,0 +1,48 @@
+.bg-gray {
+    background-color: rgb(215, 215, 215);
+}
+
+.article-p {
+    text-indent: 30px;
+}
+
+.article-img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media (min-width: 280px) and (max-width: 360px)  {
+    h1 {
+        font-size: 0.7rem !important;
+    }
+
+    h3 {
+        font-size: 0.7rem !important;
+    }
+
+    h5 {
+        font-size: 0.6rem !important;
+    }
+
+    p {
+        font-size: 0.5rem !important;
+    }
+}
+
+@media (min-width: 412px) and (max-width:600px) {
+    h1 {
+        font-size: 1rem !important;
+    }
+
+    h3 {
+        font-size: 1rem !important;
+    }
+    
+    h5 {
+        font-size: 1rem !important;
+    }
+
+    p {
+        font-size: 1rem !important;
+    }
+}
