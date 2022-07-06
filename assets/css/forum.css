@@ -1,0 +1,13 @@
+.forum-content {
+  background-color: white;
+  padding-right: 32px;
+}
+.forum-content .filter {
+  border: none;
+}
+
+.line {
+  background-color: black;
+  height: 3px;
+  width: 100%;
+}
