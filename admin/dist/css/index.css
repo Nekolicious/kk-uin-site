@@ -73,9 +73,12 @@
   background-position: center;
 }
 .slider-body .nav .nav-link {
-  color: black;
+  color: #c5c5c5;
   border-radius: 4px;
   transition: all 0.3s;
+}
+.slider .slider-body .nav .active {
+  color: #0c0d36;
 }
 .slider-body .nav .nav-link:hover {
   padding-left: 24px !important;
@@ -102,11 +105,32 @@
   position: relative;
   top: 50px;
   margin-left: 260px;
-  height: auto;
+  height: 100%;
   padding: 14px 8px 14px 8px;
   background-color: rgb(230, 230, 230);
   transition: all 0.3s;
   z-index: 1;
+}
+
+.main-pages .post .btn {
+  background-color: #00d308;
+  border-radius: 20px;
+  color: white;
+}
+
+.main-pages .post-item {
+  background-color: white;
+  width: 90%;
+  text-decoration: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+.main-pages .post a {
+  text-decoration: none;
+  color: black;
+  padding-left: 16px;
 }
 
 @media (max-width: 768px) {
