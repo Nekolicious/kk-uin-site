@@ -118,6 +118,17 @@
   color: white;
 }
 
+.main-pages table .btn {
+  border-radius: 20px;
+  width: 180px;
+}
+
+.main-pages table td .action {
+  background-color: transparent;
+  border: none;
+  width: auto;
+  color: #000853;
+}
 .main-pages .post-item {
   background-color: white;
   width: 90%;
