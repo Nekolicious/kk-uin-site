@@ -112,11 +112,13 @@
   z-index: 1;
 }
 
-.main-pages .post .btn {
+.main-pages .post .add-activity,
+.main-pages .dosen .add-dosen {
   background-color: #00d308;
   border-radius: 20px;
   color: white;
   margin-right: 100px;
+  margin-bottom: 16px;
 }
 
 .main-pages table .btn {

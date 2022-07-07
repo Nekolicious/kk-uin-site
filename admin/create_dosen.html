@@ -60,8 +60,8 @@
           <nav class="nav flex-column">
             <a class="nav-link px-3" href="index.html">Dashboard </a>
             <a class="nav-link px-3" href="mahasiswa.html">Mahasiswa </a>
-            <a class="nav-link px-3" href="dosen.html">Dosen</a>
-            <a class="nav-link px-3 active" href="activity.html">Kegiatan </a>
+            <a class="nav-link px-3 active" href="dosen.html">Dosen</a>
+            <a class="nav-link px-3" href="activity.html">Kegiatan </a>
             <a class="nav-link px-3" href="account.html">Akun Saya </a>
             <a class="nav-link px-3" href="../index.html">Keluar </a>
           </nav>
@@ -70,48 +70,42 @@
 
       <div class="main-pages">
         <div class="container post">
-          <h3>Kegiatan</h3>
-          <div class="text-end">
-            <a
-              type="button"
-              class="btn add-activity"
-              href="create_activity.html"
-              >Tambah</a
-            >
-          </div>
-          <div class="post-item">
-            <a href="#">
-              <tr>
-                <td><img src="../assets/img/post-dummy-admin.png" alt="" /></td>
-                <td>How to optimize images...</td>
-                <td>Lustiyana</td>
-                <td>12 Januari 2022</td>
-                <td><img src="../assets/img/row-right.svg" alt="" /></td>
-              </tr>
-            </a>
-          </div>
-          <div class="post-item">
-            <a href="#">
-              <tr>
-                <td><img src="../assets/img/post-dummy-admin.png" alt="" /></td>
-                <td>How to optimize images...</td>
-                <td>Lustiyana</td>
-                <td>12 Januari 2022</td>
-                <td><img src="../assets/img/row-right.svg" alt="" /></td>
-              </tr>
-            </a>
-          </div>
-          <div class="post-item">
-            <a href="#">
-              <tr>
-                <td><img src="../assets/img/post-dummy-admin.png" alt="" /></td>
-                <td>How to optimize images...</td>
-                <td>Lustiyana</td>
-                <td>12 Januari 2022</td>
-                <td><img src="../assets/img/row-right.svg" alt="" /></td>
-              </tr>
-            </a>
-          </div>
+          <h3>Dosen</h3>
+          <form>
+            <div class="form-group">
+              <label class="form-label">NIP</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Nama Dosen</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Jabatan</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Kelompok Keahlian</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Pilih Kelompok Keahlian</option>
+                <option value="1">Pengembangan Rekayasa Perangkat Lunak</option>
+                <option value="2">
+                  Visi Komputer dan Sistem Berintelegensia
+                </option>
+                <option value="3">Manajemen Data dan Sistem Informasi</option>
+                <option value="4">
+                  Sistem Komputer dan Komputasi Terdistribusi
+                </option>
+              </select>
+            </div>
+            <div class="d-grid gap-2 col-12 mx-auto mt-4">
+              <button class="btn btn-primary" type="button">Button</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>

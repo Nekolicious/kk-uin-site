@@ -59,8 +59,8 @@
         <div class="slider-body px-1">
           <nav class="nav flex-column">
             <a class="nav-link px-3" href="index.html">Dashboard </a>
-            <a class="nav-link px-3 active" href="mahasiswa.html">Mahasiswa </a>
-            <a class="nav-link px-3" href="dosen.html">Dosen</a>
+            <a class="nav-link px-3" href="mahasiswa.html">Mahasiswa </a>
+            <a class="nav-link px-3 active" href="dosen.html">Dosen</a>
             <a class="nav-link px-3" href="activity.html">Kegiatan </a>
             <a class="nav-link px-3" href="account.html">Akun Saya </a>
             <a class="nav-link px-3" href="../index.html">Keluar </a>
@@ -69,8 +69,13 @@
       </div>
 
       <div class="main-pages">
-        <div class="container">
-          <h3>Mahasiswa</h3>
+        <div class="container dosen">
+          <h3>Dosen</h3>
+          <div class="text-end">
+            <a type="button" class="btn add-dosen" href="create_dosen.html"
+              >Tambah</a
+            >
+          </div>
           <section id="table">
             <div class="table-responsive px-2 py-4 bg-white mb-5">
               <table
@@ -80,74 +85,32 @@
               >
                 <thead>
                   <tr>
-                    <th>Tanggal</th>
-                    <th>NIM</th>
+                    <th>NIP</th>
                     <th>Nama</th>
-                    <th>Angkatan</th>
+                    <th>Email</th>
+                    <th>Jabatan</th>
                     <th>Kelompok Keahlian</th>
-                    <th>Status</th>
                     <th>Action</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>15/05/2022</td>
-                    <td>1197050001</td>
-                    <td>Agus</td>
-                    <td>2019</td>
+                    <td>12345678910</td>
+                    <td>Dosen Name</td>
+                    <td>Dosen@uinsgd.ac.id</td>
+                    <td>Ketua Kelompok Keahlian</td>
                     <td>PRPL</td>
                     <td>
-                      <button type="button" class="btn btn-danger">
-                        Belum Disetujui
+                      <button type="submit" class="btn btn-sm btn-primary">
+                        Edit
                       </button>
-                    </td>
-                    <td>
-                      <a
-                        class="btn btn-secondary action"
-                        role="button"
-                        aria-disabled="false"
-                        >Approve</a
+                      <button
+                        type="submit"
+                        class="btn btn-sm btn-danger"
+                        style="margin-top: 8px"
                       >
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>15/05/2022</td>
-                    <td>1197050001</td>
-                    <td>Agus</td>
-                    <td>2019</td>
-                    <td>PRPL</td>
-                    <td>
-                      <button type="button" class="btn btn-danger">
-                        Belum Disetujui
+                        HAPUS
                       </button>
-                    </td>
-                    <td>
-                      <a
-                        class="btn btn-secondary action"
-                        role="button"
-                        aria-disabled="false"
-                        >Approve</a
-                      >
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>15/05/2022</td>
-                    <td>1197050001</td>
-                    <td>Agus</td>
-                    <td>2019</td>
-                    <td>PRPL</td>
-                    <td>
-                      <button type="button" class="btn btn-success">
-                        Disetujui
-                      </button>
-                    </td>
-                    <td>
-                      <a
-                        class="btn btn-secondary disabled action"
-                        role="button"
-                        aria-disabled="true"
-                        >Approve</a
-                      >
                     </td>
                   </tr>
                 </tbody>
